@@ -1,0 +1,82 @@
+/* * {
+    color: rgba(234, 233, 218, 1); 
+} */
+
+window.topbar#waybar {
+
+    background-color: #2e3440;
+    /* border: 2px solid rgba(104, 128, 157, 1); */
+    border-radius: 0;
+}
+
+window.bottombar#waybar {
+
+    background-color: #2e3440;
+    /* border: 2px solid rgba(104, 128, 157, 1); */
+    border-radius: 8;
+}
+
+button:hover {
+    border: 1px solid rgb(177, 177, 177);
+    background: rgba(48, 54, 59, 0.5);
+}
+
+#workspaces {
+    margin: 0px;
+    padding-left: 8px;
+}
+
+#scratchpad {
+    font-family: "Fira Code";
+}  
+
+
+#clock {
+    padding-right: 8px;
+    font-weight: 600;
+
+    font-family: "Fira Code";
+}
+
+#workspaces button {
+    padding: 5px;
+    border-radius: 0;
+    border: solid;
+    background-color: transparent;
+    border: solid;
+
+}
+
+#workspaces button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(234, 233, 218, 0.452);
+
+}
+
+#pulseaudio{
+    font-weight: 400;
+}
+
+#workspaces button.active {
+    padding: 5px;
+    border-radius: 0;
+    background-color: rgba(234, 233, 218, 0.452);
+    color: rgb(255, 255, 255);
+
+}
+
+#window {
+    font-family: 'Fira Sans';
+    font-weight: 500; 
+}
+
+#clock {
+    padding-left: 0px;
+}
+
+#network {
+    padding-right: 10px;
+
+    font-family: "Fira Sans";
+    /* font-weight: 300; */
+}
