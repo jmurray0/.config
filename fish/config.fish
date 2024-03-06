@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 set fish_greeting
+
+cbonsai -l -t0.00001 -M5 -p
